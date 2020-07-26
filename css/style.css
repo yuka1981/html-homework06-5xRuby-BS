@@ -28,6 +28,8 @@ img {
   color: #666;
 }
 
+
+/* hot section */
 .hot .card-item{
   margin-bottom: 16px;
   box-sizing: border-box;
@@ -42,7 +44,7 @@ img {
 
 .hot .teacher, .hot .course-date {
   color: #999;
-  font-size: 0.875rem;
+  font-size: 0.85rem;
   font-weight: 400;
 }
 
@@ -51,9 +53,16 @@ img {
   padding-top: 16px;
 }
 
+.hot .course-date .badge {
+  font-size: 0.9rem;
+  padding-top: 16px;
+  background-color: #E6E6E6;
+  padding: 7px 10px;
+  color: #666;
+}
+
 .hot .more-btn {
   text-align: center;
-  /* margin: 20px auto; */
   padding: 15px 50px;
   font-size: 1.125rem;
   background-color: #d90845;
