@@ -168,7 +168,7 @@ img {
 }
 
 .recommend .carousel-item {
-  height: 228px;
+  height: 228px; 
 }
 
 .recommend .carousel-indicators li {
@@ -186,7 +186,6 @@ img {
 
 .recommend .statement {
   margin-left: 10px;
-  width: 100%;
 }
 
 .recommend .name {
@@ -232,6 +231,10 @@ img {
 
 .footer .copyright {
   font-size: 0.8rem;
+}
+
+.footer .container:nth-child(2) .row {
+  padding: 0 15px;
 }
 
 
