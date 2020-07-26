@@ -55,8 +55,21 @@ img {
   height: 100%;
 }
 
-.footer a {
+/* know about us seciton */
+.know-about-us {
+  color: #555;
+  font-size: 1.125rem;
+}
+
+.know-about-us a {
+  color: #d90845;
+}
+
+/* footer section */
+.footer, .footer a, .footer span i {
   color: #888;
+}
+.footer a {
   text-decoration: none;
   font-size: 0.9rem;
 }
@@ -70,15 +83,10 @@ img {
   margin-bottom: 4px;
 }
 
-.footer span i {
-  color: #888;
-}
-
 .footer .title {
   color: #333;
 }
 
 .footer .copyright {
   font-size: 0.8rem;
-  color: #888;
 }
