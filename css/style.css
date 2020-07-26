@@ -36,15 +36,15 @@ img {
   box-shadow: 0 0 12px rgba(154,122,122,0.2);
 }
 
-nav .logo-link img {
+.logo-link img {
   width: 5.8rem;
 }
 
-nav .logo-link span {
+.logo-link span {
   font-size: 1rem;
 }
 
-nav .nav-link i {
+.nav-link i {
   margin-right: 4px;
 }
 
