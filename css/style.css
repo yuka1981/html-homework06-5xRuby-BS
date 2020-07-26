@@ -24,6 +24,19 @@ img {
   background-color: #d90845;
 }
 
+/* banner section */
+.banner .carousel-indicators li {
+  margin-right: 5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+.banner .carousel-indicators .active {
+  background-color: #d90845;
+}
 
 /* about-us section */
 .about-us .subtitle {
