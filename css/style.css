@@ -159,8 +159,12 @@ img {
 
 
 /* recommend section */
+.recommend {
+  padding-bottom: 80px;
+}
+
 .recommend-indicators {
-  margin-bottom: -30px;
+  margin-bottom: -50px;
 }
 
 .recommend .carousel-item {
@@ -182,6 +186,7 @@ img {
 
 .recommend .statement {
   margin-left: 10px;
+  width: 100%;
 }
 
 .recommend .name {
@@ -251,7 +256,7 @@ img {
   }
 
   .recommend .statement {
-    margin-left: 30px;
+    margin-left: 20px;
   }
 
   .recommend .carousel-item {
@@ -260,12 +265,8 @@ img {
 }
 
 @media screen and (min-width: 768px) {
-  .recommend .statement {
-    margin-left: 20px;
-  }
-
   .recommend .carousel-item {
-    height: 156px;
+    height: 204px;
   }
 }
 
@@ -275,7 +276,7 @@ img {
   }
 
   .recommend .statement {
-    margin-left: 40px;
+    margin-left: 0;
   }
 
   .recommend .carousel-item {
@@ -284,11 +285,6 @@ img {
 }
 
 @media screen and (min-width: 1200px) {
-
-
-  .recommend .statement {
-    margin-left: -60px;
-  }
 
   .recommend .carousel-item {
     height: 156px;
