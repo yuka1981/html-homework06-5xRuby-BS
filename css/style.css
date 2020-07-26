@@ -1,4 +1,4 @@
-
+/* Gerneral */
 img {
   vertical-align: middle;
 }
@@ -23,6 +23,59 @@ img {
   margin: 32px auto 0;
   background-color: #d90845;
 }
+
+/* Navigation */
+.navbar {
+  position: fixed;
+  z-index: 22;
+  background-color: #fff;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  box-shadow: 0 0 12px rgba(154,122,122,0.2);
+}
+
+nav .logo-link img {
+  width: 5.8rem;
+}
+
+nav .logo-link span {
+  font-size: 1rem;
+}
+
+nav .nav-link i {
+  margin-right: 4px;
+}
+
+.navbar-toggler {
+  background-color: #fff;
+  border: 2px solid #ccc;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.nav-link{
+  color: #777;
+}
+
+.nav-item a:hover{
+  color: #d90845;
+}
+
+.nav-link img {
+  margin-left: 4px;
+  animation: change 1.25s ease-in-out infinite alternate;
+}
+
+@keyframes change{
+  0%{transform: translateY(0px)}
+  50% {transform: translateY(-3px)}
+  100%{transform: translateY(0px)}
+}
+
 
 /* banner section */
 .banner .carousel-indicators li {
@@ -179,6 +232,10 @@ img {
 
 /* media query section */
 @media screen and (max-width: 576px) {
+  .banner {
+    padding-top: 58px;
+  }
+
   .recommend .statement {
     margin-left: 30px;
   }
@@ -189,6 +246,10 @@ img {
 }
 
 @media screen and (min-width: 576px) {
+  .banner {
+    padding-top: 58px;
+  }
+
   .recommend .statement {
     margin-left: 30px;
   }
@@ -209,6 +270,10 @@ img {
 }
 
 @media screen and (min-width: 992px) {
+  .banner {
+    padding-top: 64px;
+  }
+
   .recommend .statement {
     margin-left: 40px;
   }
@@ -219,6 +284,8 @@ img {
 }
 
 @media screen and (min-width: 1200px) {
+
+
   .recommend .statement {
     margin-left: -60px;
   }
