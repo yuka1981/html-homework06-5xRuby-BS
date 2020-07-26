@@ -24,12 +24,23 @@ img {
   background-color: #d90845;
 }
 
-.card-title {
-  color: #666;
+
+/* about-us section */
+.about-us .subtitle {
+  color: #333;
+}
+
+.about-us .desc {
+  color: #555;
+  font-size: 1rem;
 }
 
 
 /* hot section */
+.hot .card-title {
+  color: #666;
+}
+
 .hot .card-item{
   margin-bottom: 16px;
   box-sizing: border-box;
