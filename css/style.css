@@ -24,6 +24,7 @@ img {
   background-color: #d90845;
 }
 
+
 /* Navigation */
 .navbar {
   position: fixed;
@@ -90,6 +91,7 @@ img {
 .banner .carousel-indicators .active {
   background-color: #d90845;
 }
+
 
 /* about-us section */
 .about-us .subtitle {
@@ -201,11 +203,13 @@ img {
   height: 100px;
 }
 
+
 /* know about us seciton */
 .know-about-us {
   color: #555;
   font-size: 1.125rem;
 }
+
 
 /* footer section */
 .footer, .footer a, .footer span i {
@@ -235,6 +239,43 @@ img {
 
 .footer .container:nth-child(2) .row {
   padding: 0 15px;
+}
+
+/* fb-dialog-content */
+.fb-dialog-content {
+  width: 70px;
+  height: 70px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: fixed;
+  right: 15px;
+  bottom: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.fb-dialog-content i{
+  color: #d90845;
+}
+
+/* scroll top */
+.scroll-top {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+.scroll-top i {
+  color: #d90845;
 }
 
 
